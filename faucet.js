@@ -61,7 +61,7 @@ async function main() {
     return;
   }
 
-  const batchSize = 5; // 每批同时跑 5 个
+  const batchSize = 50; // 每批同时跑 50 个
 
   for (let i = 0; i < wallets.length; i += batchSize) {
     const batch = wallets.slice(i, i + batchSize);
